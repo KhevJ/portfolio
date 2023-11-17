@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* Technical Skills section styles */
+    .skills_table_row-even {
+        @apply bg-black;
+    }
+    .skills-table-row-odd {
+        @apply bg-black;
+    }
+    .skills_table_head_cell {
+        @apply whitespace-nowrap rounded-l-lg pl-2.5 pr-2.5 text-left text-xs font-semibold text-white lg:pl-3 lg:pr-3 lg:text-sm xl:rounded-l-xl xl:pl-4 xl:pr-4 xl:text-base 2xl:pr-5 2xl:text-lg;
+    }
+    .skills-table-data-cell {
+        @apply rounded-r-lg py-1.5 pr-1.5 xl:rounded-r-xl xl:py-2 xl:pr-2;
+    }
+    .skills-table-skill-list-container {
+        @apply flex flex-row flex-wrap gap-1.5 xl:gap-2;
+    }
+    .skills-table-skill-list-container span {
+        @apply line-clamp-1 rounded-full border border-white px-1.5 py-0.5 text-xs font-normal text-white lg:px-2 lg:text-xs xl:px-2.5 xl:py-1 xl:text-xs 2xl:px-3 2xl:text-sm;
+    }
+
+
+}
+
