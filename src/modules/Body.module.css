@@ -26,3 +26,35 @@
 
 }
 
+.section_showcase_container {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition-duration: 250ms;
+}
+
+.section_showcase_expanded {
+    grid-template-rows: 1fr;
+    @apply mt-4 xl:mt-5 2xl:mt-6;
+
+}
+
+.section-container:hover > .hover-chevron {
+    opacity: 100;
+    transform: translateY(1rem);
+  }
+  .section-container:hover > .expanded-hover-chevron {
+    opacity: 100;
+    transform: translateY(-1rem);
+  }
+  .hover-chevron {
+    transition-property: opacity, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  .expanded_hover_chevron {
+    transition-property: opacity, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  
+

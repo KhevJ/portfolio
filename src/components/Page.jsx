@@ -10,7 +10,7 @@ export default function Page(){
     return (
         <div>
             <div className=" text-lg">
-                <Navbar/>
+               
                 <header
                     id="header-section"
                     className="mx-5 pt-[4.5rem] md:fixed md:mx-0 md:ml-[12.5vw] md:h-[89vh] md:w-[35.5vw] md:pt-[11vh]"
