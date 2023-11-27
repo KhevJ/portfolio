@@ -219,7 +219,7 @@ export default function Body(){
                 expandFunction={setSectionExpandedP3}
                 
                 >
-                <h3 className="section-header text-xs font-bold text-black  lg:text-sm xl:text-base 2xl:text-lg">Chess Multiplayer</h3>
+                <h3 className="section-header text-xs font-bold text-black  lg:text-sm xl:text-base 2xl:text-lg">Movie Theatre App</h3>
                 <div className="section-subheader-container mt-1 flex flex-row items-center gap-2 text-xs font-semibold text-black  lg:text-2xs xl:mt-1.5 xl:gap-2.5 xl:text-xs 2xl:mt-2 2xl:gap-3 2xl:text-base">
                     <span className="shrink-0">Java Developer</span>
                     <div className="dot h-[2px] w-[2px] rounded-full bg-black xl:h-[3px] xl:w-[3px] 2xl:h-1 2xl:w-1"></div>
