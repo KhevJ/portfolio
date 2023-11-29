@@ -152,8 +152,7 @@ export default function Body(){
         
                 </div>
                 <p className="section-paragraph text-xs font-medium text-black lg:text-xs lg:leading-normal xl:text-sm 2xl:text-base mb-3 xl:mb-3.5 2xl:mb-4">
-                    This is a chess game where you can challenge your friends to game of chess. The connection between the 2 players were done using a TCP connection using socket.io with expressJS and NodeJS . The front-end was made using ReactJS and Material UI library. The testing was done using the SeleniumIDE.
-                </p>
+                This is a simple browser-based game where two samurai characters battle it out. Players can move their characters and perform slashing attacks, with the goal of reducing their opponent's health to win the game. This game was made using Javascript and HTML/CSS. The testing was done using Jest. This game also has sprite animations.
                 <div
                     className={`${
                         sectionExpandedP2 && styles.section_showcase_expanded 
