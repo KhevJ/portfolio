@@ -152,7 +152,7 @@ export default function Body(){
         
                 </div>
                 <p className="section-paragraph text-xs font-medium text-black lg:text-xs lg:leading-normal xl:text-sm 2xl:text-base mb-3 xl:mb-3.5 2xl:mb-4">
-                This is a simple browser-based game where two samurai characters battle it out. Players can move their characters and perform slashing attacks, with the goal of reducing their opponent's health to win the game. This game was made using Javascript and HTML/CSS. The testing was done using Jest. This game also has sprite animations.
+                This is a simple browser-based game where two samurai characters battle it out. Players can move their characters and perform slashing attacks, with the goal of reducing their opponent's health to win the game. This game was made using Javascript and HTML/CSS. The testing was done using Jest. This game also has sprite animations. </p>
                 <div
                     className={`${
                         sectionExpandedP2 && styles.section_showcase_expanded 
