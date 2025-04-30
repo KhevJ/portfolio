@@ -31,7 +31,7 @@ export default function Page(){
                         >
                             Resume
                         </a> */}
-                        <div className="rounded border border-black bg-white px-2 py-1 text-xs font-semibold text-black  lg:border-2 lg:px-5 lg:py-1.5 lg:text-xs xl:rounded-md xl:px-6 2xl:rounded-lg 2xl:px-7 2xl:py-2 2xl:text-base">
+                        <div className="rounded border border-black bg-white px-2 py-1 text-xs font-semibold text-black  lg:border-2 lg:px-5 lg:py-1.5 lg:text-xs xl:rounded-md xl:px-6 2xl:rounded-lg 2xl:px-7 2xl:py-2 2xl:text-base hover:bg-teal-500 ">
                             khevinjug@gmail.com
                         </div>
                     </div>
