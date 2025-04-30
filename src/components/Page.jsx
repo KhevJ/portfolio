@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "./Navbar";
-import Resume from '../assets/Khevin_Jugessur_Resume.pdf';
+// import Resume from '../assets/Khevin_Jugessur_Resume.pdf';
 import Body from "./Body";
 
 
@@ -24,13 +24,13 @@ export default function Page(){
                         skills as a software developer.
                     </p>
                     <div className="mt-4 flex flex-row gap-5 lg:mt-6 2xl:mt-8 2xl:gap-6">
-                        <a
+                        {/* <a
                         href= {Resume}
                         
                         className="rounded bg-black px-4 py-1.5 text-xs font-semibold text-white hover:bg-teal-500  lg:px-5 lg:py-2 lg:text-xs xl:rounded-md xl:px-6 2xl:rounded-lg 2xl:px-7 2xl:py-2.5 2xl:text-base"
                         >
                             Resume
-                        </a>
+                        </a> */}
                         <div className="rounded border border-black bg-white px-2 py-1 text-xs font-semibold text-black  lg:border-2 lg:px-5 lg:py-1.5 lg:text-xs xl:rounded-md xl:px-6 2xl:rounded-lg 2xl:px-7 2xl:py-2 2xl:text-base">
                             khevinjug@gmail.com
                         </div>
