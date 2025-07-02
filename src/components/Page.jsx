@@ -19,9 +19,9 @@ export default function Page(){
                         Khevin Jugessur
                     </h1>
                     <p className="mt-4 text-xs font-semibold leading-normal text-off-black-900 dark:text-light-black-100 lg:mt-5 lg:text-sm 2xl:text-base">
-                        I am currently pursuing a bachelor’s degree in software
-                        engineering with a minor in mechatronics, and I am looking for job opportunities to grow my
-                        skills as a software developer.
+                        Hello! I  am currently a new grad from Uofc with a bachelor’s degree in software
+                        engineering with a minor in mechatronics, and I am actively looking for job opportunities to grow my
+                        skills as a software developer. Feel free to reach out to me anytime.
                     </p>
                     <div className="mt-4 flex flex-row gap-5 lg:mt-6 2xl:mt-8 2xl:gap-6">
                         {/* <a
