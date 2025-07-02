@@ -4,6 +4,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 
 module.exports = {
+  
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
@@ -12,6 +13,9 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: {
+       '@tailwindcss/postcss': {}, // or:  tailwindcss: { config: './tailwind.config.js' }
+       // Other plugins
+  }
 }
 
